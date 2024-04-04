@@ -64,7 +64,7 @@
       <span class="toggle-icon" class:filled={$theme.scheme === 'dark'}>
         <DarkMode />
       </span>
-      Dark mode
+      深色模式
     </ActionCenterTile>
   </ActionCenterSurface>
 
@@ -78,7 +78,7 @@
       <span class="toggle-icon" class:filled={!$prefersReducedMotion}>
         <TransitionMaskedIcon />
       </span>
-      Animations
+      自动
     </ActionCenterTile>
   </ActionCenterSurface>
 
@@ -90,7 +90,7 @@
   >
     <ActionCenterTile grid={[1, 1]} role="region">
       <div class="color-picker">
-        <p>System Color</p>
+        <p>系统颜色</p>
         <div class="color-palette">
           {#each Object.keys(colors) as colorID}
             {@const { contrastHsl, hsl } = colors[colorID][$theme.scheme]}
@@ -143,7 +143,7 @@
         <span class="toggle-icon" class:filled={$shouldShowNotch}>
           <NotchIcon />
         </span>
-        Notch
+        庞玺桐的iPhone13
       </div>
     </ActionCenterTile>
   </ActionCenterSurface>

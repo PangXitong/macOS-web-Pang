@@ -19,7 +19,7 @@
 
 <section class="container">
   <header class="titlebar app-window-drag-handle">
-    <span>Wallpapers</span>
+    <span>壁纸</span>
   </header>
 
   <section class="main-area">
@@ -35,7 +35,7 @@
         {#if wallpapersConfig[$wallpaper.id].type !== 'standalone'}
           <label>
             <input type="checkbox" bind:checked={$wallpaper.canControlTheme} />
-            Change dark/light mode as wallpapers change
+            随着壁纸的变化更改暗/亮模式
           </label>
         {/if}
       </div>
@@ -44,7 +44,7 @@
     <br /><br /><br /><br />
 
     <section class="dynamic-wallpapers">
-      <h2>Dynamic Wallpapers</h2>
+      <h2>动态壁纸</h2>
 
       <div class="wallpapers">
         {#each dynamicWallpapers as [id, { thumbnail, name }]}
@@ -61,7 +61,7 @@
     <br /><br /><br />
 
     <section class="standalone-wallpapers">
-      <h2>Standalone Wallpapers</h2>
+      <h2>独立壁纸</h2>
 
       <div class="wallpapers">
         {#each standaloneWallpapers as [id, { thumbnail, name }]}

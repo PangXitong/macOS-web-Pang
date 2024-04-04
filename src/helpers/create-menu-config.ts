@@ -1,40 +1,40 @@
 const appleMenu = {
-  title: 'apple',
+  title: '苹果',
   menu: {
     'about-this-mac': {
-      title: 'About This Mac',
+      title: '关于本机',
       breakAfter: true,
     },
     'system-preferences': {
-      title: 'System Preferences...',
+      title: '系统偏好设置...',
     },
     'app-store': {
       title: 'App Store...',
       breakAfter: true,
     },
     'recent-items': {
-      title: 'Recent Items',
+      title: '最近项目',
       breakAfter: true,
     },
     'force-quit': {
-      title: 'Force Quit...',
+      title: '强制退出...',
       breakAfter: true,
     },
     sleep: {
-      title: 'Sleep',
+      title: '睡眠',
     },
     restart: {
-      title: 'Restart...',
+      title: '重新启动...',
     },
     shutdown: {
-      title: 'Shut Down...',
+      title: '关闭...',
       breakAfter: true,
     },
     'lock-screen': {
-      title: 'Lock Screen',
+      title: '锁定屏幕',
     },
     logout: {
-      title: 'Log Out User...',
+      title: '登出用户...',
     },
   },
 };

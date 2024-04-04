@@ -1,35 +1,35 @@
 export const contextMenuConfig = {
   default: {
     'new-folder': {
-      title: 'New Folder',
+      title: '新建文件夹',
       breakAfter: true,
     },
     'get-info': {
-      title: 'Get Info',
+      title: '详细信息',
       breakAfter: false,
     },
     'change-desktop-bg': {
-      title: 'Change Desktop Background',
+      title: '更改桌面背景',
       breakAfter: true,
     },
     'use-stacks': {
-      title: 'Use Stacks',
+      title: '使用堆栈',
       breakAfter: false,
     },
     'sort-by': {
-      title: 'Sort By',
+      title: '排序方式',
       breakAfter: false,
     },
     'clean-up': {
-      title: 'Clean Up',
+      title: '整理',
       breakAfter: false,
     },
     'clean-up-by': {
-      title: 'Clean Up By',
+      title: '整理方式',
       breakAfter: false,
     },
     'show-view-options': {
-      title: 'Show View Options',
+      title: '显示视图选项',
       breakAfter: false,
     },
   },

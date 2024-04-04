@@ -46,12 +46,12 @@
       draggable="false"
     />
 
-    <h3>Updates Available</h3>
-    <p>Do you want to restart to install these updates now?</p>
+    <h3>可用的更新</h3>
+    <p>是否要重新启动以立即安装这些更新？</p>
 
     <div class="buttons">
-      <button on:click={close}>Later</button>
-      <button class="confirm" on:click={handleUpdateApp}> Update </button>
+      <button on:click={close}>以后再说</button>
+      <button class="confirm" on:click={handleUpdateApp}> 立刻更新 </button>
     </div>
   </section>
 </SystemDialog>

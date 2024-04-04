@@ -9,17 +9,15 @@ export const openApps = writable<Record<AppID, boolean>>({
   finder: true,
   vscode: false,
   calculator: false,
-  // safari: false,
+  safari: true,
   appstore: false,
   calendar: false,
-  // 'system-preferences': false,
+  'system-preferences': true,
 
   'purus-twitter': false,
   'view-source': true,
 
   vercel: true,
-
-  ukraine: true,
 });
 
 /** Which app is currently focused */

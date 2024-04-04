@@ -2,28 +2,28 @@ import { createMenuConfig } from '🍎/helpers/create-menu-config';
 
 export const finderMenuConfig = createMenuConfig({
   default: {
-    title: 'Finder',
+    title: '访达',
     menu: {
       'about-finder': {
-        title: 'About Finder',
+        title: '关于访达',
         breakAfter: true,
       },
       preferences: {
-        title: 'Preferences',
+        title: '设置',
         breakAfter: true,
       },
       'empty-trash': {
-        title: 'Empty Trash',
+        title: '清空回收站',
         breakAfter: true,
       },
       'hide-finder': {
-        title: 'Hide Finder',
+        title: '隐藏访达',
       },
       'hide-others': {
-        title: 'Hide Others',
+        title: '隐藏其他',
       },
       'show-all': {
-        title: 'Show All',
+        title: '显示全部',
         disabled: true,
       },
     },
@@ -33,353 +33,353 @@ export const finderMenuConfig = createMenuConfig({
     title: 'File',
     menu: {
       'new-finder-window': {
-        title: 'New Finder Window',
+        title: '新建访达窗口',
       },
       'new-folder': {
-        title: 'New Folder',
+        title: '新建文件夹',
       },
       'new-folder-with-selection': {
-        title: 'New Folder with Selection',
+        title: '用所选文件新建文件夹',
         disabled: true,
       },
       'new-smart-folder': {
-        title: 'New Smart Folder',
+        title: '新建智能文件夹',
       },
       'new-tab': {
-        title: 'New tab',
+        title: '新标签页',
       },
       open: {
-        title: 'Open',
+        title: '打开',
         disabled: true,
       },
       'open-with': {
-        title: 'Open With',
+        title: '打开方式',
         disabled: true,
       },
       print: {
-        title: 'Print',
+        title: '打印',
         disabled: true,
       },
       'close-window': {
-        title: 'Close Window',
+        title: '关闭窗口',
         disabled: true,
         breakAfter: true,
       },
 
       'get-info': {
-        title: 'Get Info',
+        title: '详细信息',
       },
       rename: {
-        title: 'Rename',
+        title: '重命名',
         disabled: true,
         breakAfter: true,
       },
 
       compress: {
-        title: 'Compress',
+        title: '压缩',
         disabled: true,
         breakAfter: true,
       },
 
       duplicate: {
-        title: 'Duplicate',
+        title: '复制',
         disabled: true,
       },
       'make-alias': {
-        title: 'Make Alias',
+        title: '制作替身',
         disabled: true,
       },
       'quick-look': {
-        title: 'Quick Look',
+        title: '快速查看',
         disabled: true,
       },
       'show-original': {
-        title: 'Show Original',
+        title: '显示原始',
         disabled: true,
       },
       'add-to-sidebar': {
-        title: 'Add to Sidebar',
+        title: '添加到边栏',
         disabled: true,
         breakAfter: true,
       },
 
       'move-to-trash': {
-        title: 'Move to Trash',
+        title: '移到废纸篓',
         disabled: true,
       },
       eject: {
-        title: 'Eject',
+        title: '弹出',
         disabled: true,
         breakAfter: true,
       },
 
       find: {
-        title: 'Find',
+        title: '寻找',
         breakAfter: true,
       },
 
       tags: {
-        title: 'Tags...',
+        title: '标签...',
         disabled: true,
       },
     },
   },
 
   edit: {
-    title: 'Edit',
+    title: '编辑',
     menu: {
       undo: {
-        title: 'Undo',
+        title: '取消',
         disabled: true,
       },
       redo: {
-        title: 'Redo',
+        title: '撤销',
         disabled: true,
         breakAfter: true,
       },
 
       cut: {
-        title: 'Cut',
+        title: '剪切',
         disabled: true,
       },
       copy: {
-        title: 'Copy',
+        title: '复制',
         disabled: true,
       },
       paste: {
-        title: 'Paste',
+        title: '粘贴',
         disabled: true,
       },
       'select-all': {
-        title: 'Select All',
+        title: '选择全部',
         disabled: true,
         breakAfter: true,
       },
 
       'show-clipboard': {
-        title: 'Show Clipboard',
+        title: '显示剪贴板',
         breakAfter: true,
       },
 
       'start-dictation': {
-        title: 'Start Dictation...',
+        title: '开始听写...',
       },
       'emoji-and-symbols': {
-        title: 'Emoji & Symbols',
+        title: '表情符号和符号',
       },
     },
   },
 
   view: {
-    title: 'View',
+    title: '查看',
     menu: {
       'as-icons': {
-        title: 'As Icons',
+        title: '以图标显示',
         disabled: true,
       },
       'as-list': {
-        title: 'As List',
+        title: '以文字列表显示',
         disabled: true,
       },
       'as-columns': {
-        title: 'As Columns',
+        title: '作为列',
         disabled: true,
       },
       'as-gallery': {
-        title: 'As Gallery',
+        title: '作为库',
         disabled: true,
         breakAfter: true,
       },
 
       'use-stacks': {
-        title: 'Use Stacks',
+        title: '使用堆栈',
       },
       'sort-by': {
-        title: 'Sort By',
+        title: '排序方式',
         menu: {},
       },
       'clean-up': {
-        title: 'Clean Up',
+        title: '整理',
         disabled: true,
       },
       'clean-up-by': {
-        title: 'Clean Up By',
+        title: '整理方式',
         disabled: true,
         breakAfter: true,
         menu: {},
       },
 
       'hide-sidebar': {
-        title: 'Hide Sidebar',
+        title: '隐藏边栏',
         disabled: true,
       },
       'show-preview': {
-        title: 'Show Preview',
+        title: '显示预览',
         disabled: true,
         breakAfter: true,
       },
 
       'hide-toolbar': {
-        title: 'Hide Toolbar',
+        title: '隐藏工具栏',
         disabled: true,
       },
       'show-all-tabs': {
-        title: 'Show All Tabs',
+        title: '显示所有选项卡',
         disabled: true,
       },
       'show-tab-bar': {
-        title: 'Show Tab Bar',
+        title: '显示选项卡栏',
         disabled: true,
       },
       'show-path-bar': {
-        title: 'Show Path Bar',
+        title: '显示路径栏',
         disabled: true,
       },
       'show-status-bar': {
-        title: 'Show Status Bar',
+        title: '显示状态栏',
         disabled: true,
         breakAfter: true,
       },
 
       'customize-toolbar': {
-        title: 'Customize Toolbar...',
+        title: '自定义工具栏',
         disabled: true,
         breakAfter: true,
       },
 
       'show-view-options': {
-        title: 'Show View Options',
+        title: '显示视图选项',
       },
       'show-preview-options': {
-        title: 'Show Preview Options',
+        title: '显示预览选项',
         disabled: true,
         breakAfter: true,
       },
 
       'enter-full-screen': {
-        title: 'Enter Full Screen',
+        title: '全屏显示',
         disabled: true,
       },
     },
   },
 
   go: {
-    title: 'Go',
+    title: '前往',
     menu: {
       back: {
-        title: 'Back',
+        title: '前往',
         disabled: true,
       },
       forward: {
-        title: 'Forward',
+        title: '前进',
         disabled: true,
       },
       'enclosing-folder': {
-        title: 'Enclosing Folder',
+        title: '正在封装文件夹',
         breakAfter: true,
       },
 
       recents: {
-        title: 'Recents',
+        title: '最近打开',
       },
       documents: {
-        title: 'Documents',
+        title: '文稿',
       },
       desktop: {
-        title: 'Desktop',
+        title: '桌面',
       },
       downloads: {
-        title: 'Downloads',
+        title: '下载',
       },
       home: {
-        title: 'Home',
+        title: '主页',
       },
       computer: {
-        title: 'Computer',
+        title: '此电脑',
       },
       airdrop: {
-        title: 'Airdrop',
+        title: '隔空投送',
       },
       network: {
-        title: 'Network',
+        title: '网络',
       },
       'icloud-drive': {
-        title: 'iCloud Drive',
+        title: 'iCloud',
       },
       applications: {
-        title: 'Applications',
+        title: '应用程序',
       },
       utilities: {
-        title: 'Utilities',
+        title: '公共',
         breakAfter: true,
       },
 
       'go-to-folder': {
-        title: 'Go to Folder',
+        title: '前往文件夹',
       },
       'connect-to-server': {
-        title: 'Connect to Server',
+        title: '连接到服务器',
       },
     },
   },
 
   window: {
-    title: 'Window',
+    title: '窗口',
     menu: {
       minimize: {
-        title: 'Minimize',
+        title: '最小化',
         disabled: true,
       },
       zoom: {
-        title: 'Zoom',
+        title: '最大化',
         disabled: true,
       },
       'move-window-to-left-side-of-screen': {
-        title: 'Move Window to Left Side of Screen',
+        title: '将窗口移动到屏幕左侧',
         disabled: true,
       },
       'move-window-to-right-side-of-screen': {
-        title: 'Move Window to Right Side of Screen',
+        title: '将窗口移动到屏幕右侧',
         disabled: true,
       },
       'cycle-through-windows': {
-        title: 'Cycle Through Windows',
+        title: '在Windows中循环',
         breakAfter: true,
       },
 
       'show-previous-tab': {
-        title: 'Show Previous Tab',
+        title: '显示上一个选项卡',
         disabled: true,
       },
       'show-next-tab': {
-        title: 'Show Next Tab',
+        title: '显示下一个选项卡',
         disabled: true,
       },
       'move-tab-to-new-window': {
-        title: 'Move Tab to New Window',
+        title: '将选项卡移动到新窗口',
         disabled: true,
       },
       'merge-all-windows': {
-        title: 'Merge all Windows',
+        title: '合并所有窗口',
         disabled: true,
         breakAfter: true,
       },
 
       'bring-all-to-front': {
-        title: 'Bring All to Front',
+        title: '将所有内容置于最前面',
       },
     },
   },
 
   help: {
-    title: 'Help',
+    title: '帮助',
     menu: {
       'send-finder-feedback': {
-        title: 'Send Finder Feedback',
+        title: '发送访达反馈',
         breakAfter: true,
       },
       'macos-help': {
-        title: 'macOS Help',
+        title: 'macOS帮助',
       },
     },
   },

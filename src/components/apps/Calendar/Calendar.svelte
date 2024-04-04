@@ -36,7 +36,7 @@
         <button on:click={goPreviousMonth}>
           <LeftArrow />
         </button>
-        <button on:click={goToToday}>Today</button>
+        <button on:click={goToToday}>今天</button>
         <button on:click={goNextMonth}>
           <RightArrow />
         </button>

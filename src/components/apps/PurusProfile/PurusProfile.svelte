@@ -14,50 +14,46 @@
 
 <section class="container">
   <header class="titlebar app-window-drag-handle">
-    <span>About the Developer</span>
+    <span>关于开发者</span>
   </header>
 
   <aside class:light={$theme.scheme === 'light'}>
     <nav>
-      <a href="https://www.puruvj.dev/blog" use:external> <BlogIcon /> Blog </a>
-      <a href="https://www.puruvj.dev/works" use:external> <WorksIcon /> Works </a>
+      <a href="https://www.oldsai.cn" use:external> <BlogIcon /> 博客 </a>
+      <a href="https://www.oldsai.cn/map.html" use:external> <WorksIcon /> 成就 </a>
 
       <hr />
-
-      <a href="https://www.puruvj.dev/twitter" use:external>
-        <TwitterIcon />
-        Twitter
-      </a>
-      <a href="https://www.puruvj.dev/github" use:external> <GithubIcon /> Github </a>
-      <a href="https://www.puruvj.dev/devto" use:external> <DevToIcon /> Dev.to </a>
+      <a href="https://github.com/PangXitong" use:external> <GithubIcon /> Github </a>
     </nav>
   </aside>
 
   <section class="content">
-    <img height="200" width="200" src="/purus-profile/puru.webp" alt="Puru Vijay Profile pic" />
+    <img height="200" width="200" src="/purus-profile/IMG_6744.JPG" alt="Puru Vijay Profile pic" />
 
     <br />
 
-    <h1>Hi, I'm Puru</h1>
+    <h1>你好，我是庞玺桐！</h1>
 
     <h2>
-      I'm the creator of macOS Web, which you're on right now
+      我是macOS Web的创建者，您现在正在使用它
       <img src="/emojis/wink.png" alt="Wink emoji" class="emoji" />
     </h2>
 
     <br /><br />
 
     <p>
-      I am a fullstack web developer, with an infinite amount of love for frontend web development,
-      esp JavaScript, TypeScript, and for frontend frameworks like Svelte, Vue and React
+      大家好，我是庞玺桐，一名来自中国吉林省的青年学生，理想是成为一名飞行员。
       <img src="/emojis/star-struck.png" alt="Star Struck face emoji" class="emoji" />
     </p>
 
     <br /><br />
 
     <p>
-      However, my love for tech doesn't end there. I enjoy writing backend APIs, scripts, working
-      with databases, and my fav platforms are NodeJS, Deno and Go
+      这个项目来自<a href="https://github.com/puruvj/macos-web"style="color:#75BEFF"> puruvj的macos-web</a>
+      <br>
+      庞玺桐进行了项目汉化（目前部分功能只有显示，没有实际功能）
+      <br>
+      您可以在左侧查看我的链接
     </p>
   </section>
 </section>

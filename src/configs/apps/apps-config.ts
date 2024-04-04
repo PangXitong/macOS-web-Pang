@@ -1,7 +1,7 @@
 import { createAppConfig } from '🍎/helpers/create-app-config';
 
 const wallpapers = createAppConfig({
-  title: 'Wallpapers',
+  title: '壁纸',
   resizable: true,
 
   height: 600,
@@ -11,7 +11,7 @@ const wallpapers = createAppConfig({
 });
 
 const calculator = createAppConfig({
-  title: 'Calculator',
+  title: '计算器',
 
   expandable: true,
   resizable: false,
@@ -21,7 +21,7 @@ const calculator = createAppConfig({
 });
 
 const calendar = createAppConfig({
-  title: 'Calendar',
+  title: '日历',
   resizable: true,
 });
 
@@ -34,7 +34,7 @@ const vscode = createAppConfig({
 });
 
 const finder = createAppConfig({
-  title: 'Finder',
+  title: '访达',
   resizable: true,
 
   // dockBreaksBefore: true,
@@ -47,12 +47,12 @@ const safari = createAppConfig({
 });
 
 const systemPreferences = createAppConfig({
-  title: 'System Preferences',
+  title: '系统设置',
   resizable: true,
 });
 
 const purusTwitter = createAppConfig({
-  title: `About the Developer`,
+  title: `关于开发者`,
   resizable: true,
 
   dockBreaksBefore: true,
@@ -62,25 +62,15 @@ const purusTwitter = createAppConfig({
 });
 
 const viewSource = createAppConfig({
-  title: `View Source`,
+  title: `浏览代码`,
   resizable: true,
 
   shouldOpenWindow: false,
   externalAction: () => window.open('https://github.com/puruvj/macos-web', '_blank'),
 });
 
-const ukraine = createAppConfig({
-  title: `Support Ukraine`,
-  resizable: true,
-
-  shouldOpenWindow: false,
-  externalAction: () => window.open('https://www.stopputin.net/', '_blank'),
-
-  dockBreaksBefore: true,
-});
-
 const vercel = createAppConfig({
-  title: `Powered by Vercel`,
+  title: `运行于Vercel`,
   resizable: true,
 
   shouldOpenWindow: false,
@@ -110,6 +100,4 @@ export const appsConfig = {
   'view-source': viewSource,
 
   vercel,
-
-  ukraine,
 };
